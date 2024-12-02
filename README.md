@@ -1,61 +1,57 @@
 
-# Spark Practice![image]([https://github.com/user-attachments/assets/720756ee-2392-4701-ab5f-18c96cf0f7bd](https://upload.wikimedia.org/wikipedia/commons/thumb/7/72/Effective_Programming_for_America_logo.svg/1200px-Effective_Programming_for_America_logo.svg.png))
+# Spark Practice!
 
-This project is a part of the [Data Science Working Group](http://datascience.codeforsanfrancisco.org) at [Code for San Francisco](http://www.codeforsanfrancisco.org).  Other DSWG projects can be found at the [main GitHub repo](https://github.com/sfbrigade/data-science-wg).
+Date completion: 02.12.2025
 
-#### -- Project Status: [Active, On-Hold, Completed]
+This project is a part of the [Data Engineering 2024 TechOrda](https://university.epam.com/myLearning/path?rootId=15377596) at [Epam University](https://campus.epam.kz/ru). 
+
+#### Project Status: [Completed]
 
 ## Project Intro/Objective
-The purpose of this project is ________. (Describe the main goals of the project and potential civic impact. Limit to a short paragraph, 3-6 Sentences)
+The purpose of this project is to be familiarize you with the basics of the open source distributed processing system for big data workloads. In addition to getting acquainted with the key components, architecture, and various applications of Spark, the project will discover the wealth of operations Spark offers, techniques about extract, transform, load (ETL), and the sets of APIs available in Spark. Apply the knowledge earned from the Spark lesson with the goal of building an understanding of how to improve the efficiency of Spark applications. 
 
-### Partner
-* [Name of Partner organization/Government department etc..]
-* Website for partner
-* Partner contact: [Name of Contact], [slack handle of contact if any]
-* If you do not have a partner leave this section out
 
 ### Methods Used
-* Inferential Statistics
-* Machine Learning
-* Data Visualization
-* Predictive Modeling
-* etc.
+* Data Cleaning
+* API Integration
+* Geospatial Analysis
+* Data Transformation
+* Data Merging
+* Data Aggregation
+* Data Storage
+* ETL (Extract, Transform, Load)
+* Idempotent Operations
 
 ### Technologies
-* R 
 * Python
-* D3
-* PostGres, MySql
-* Pandas, jupyter
-* HTML
-* JavaScript
-* etc. 
+* Apache Spark
+* PySpark
+* OpenCage Geocoding API
+* Geohash
+* Parquet
+* Docker
+* REST API
+* Jupyter Notebooks
+* SQL
+* JSON (for API data format)
 
 ## Project Description
-(Provide more detailed overview of the project.  Talk a bit about your data sources and what questions and hypothesis you are exploring. What specific data analysis/visualization and modelling work are you using to solve the problem? What blockers and challenges are you facing?  Feel free to number or bullet point things here)
+This is a final practical task of Spark Lesson. The step and task is provided below.
 
-## Needs of this project
+## PREREQUISITES
+ * Install Spark locally using one of the methods described [here](https://spark.apache.org/downloads.html) or in Docker.
+ * Create a Spark ETL job to read data from a local storage. You can find the data in the Spark Practice—Dataset file on the page with the task description.
 
-- frontend developers
-- data exploration/descriptive statistics
-- data processing/cleaning
-- statistical modeling
-- writeup/reporting
-- etc. (be as specific as possible)
+## TASK
+ * Load dataset *Restaurants* and show available rows and collumns.
+ * Check restaurant data for incorrect (null) values (latitude and longitude).
+ * For incorrect values, map latitude and longitude from the [OpenCage Geocoding API](https://opencagedata.com/api) in a job via the REST API.
+ * Generate a geohash by latitude and longitude using a geohash library like geohash-java. Your geohash should be four characters long and placed in an extra column.
+ * Load dataset *Weather* and show available rows and collumns. Check for missing values (latitude and longitude).
+ * Generate geohash for weather dataset
+ * Left-join weather and restaurant data using the four-character geohash. Make sure to avoid data multiplication and keep your job idempotent.
+ * Store the enriched data (i.e., the joined data with all the fields from both datasets) in the local file system, preserving data partitioning in the parquet format.
 
-## Getting Started
-
-1. Clone this repo (for help see this [tutorial](https://help.github.com/articles/cloning-a-repository/)).
-2. Raw Data is being kept [here](Repo folder containing raw data) within this repo.
-
-    *If using offline data mention that and how they may obtain the data from the froup)*
-    
-3. Data processing/transformation scripts are being kept [here](Repo folder containing data processing scripts/notebooks)
-4. etc...
-
-*If your project is well underway and setup is fairly complicated (ie. requires installation of many packages) create another "setup.md" file and link to it here*  
-
-5. Follow setup [instructions](Link to file)
 
 ## Featured Notebooks/Analysis/Deliverables
 * [Notebook/Markdown/Slide Deck Title](link)
@@ -63,18 +59,9 @@ The purpose of this project is ________. (Describe the main goals of the project
 * [Blog Post](link)
 
 
-## Contributing DSWG Members
+## Contributing owner
 
-**Team Leads (Contacts) : [Full Name](https://github.com/[github handle])(@slackHandle)**
-
-#### Other Members:
-
-|Name     |  Slack Handle   | 
-|---------|-----------------|
-|[Full Name](https://github.com/[github handle])| @johnDoe        |
-|[Full Name](https://github.com/[github handle]) |     @janeDoe    |
+**Epam Big Data Engineering student : [Zhalgas Zhiyenbekov](https://github.com/zhiyenbekov1222?tab=repositories))**
 
 ## Contact
-* If you haven't joined the SF Brigade Slack, [you can do that here](http://c4sf.me/slack).  
-* Our slack channel is `#datasci-projectname`
-* Feel free to contact team leads with any questions or if you are interested in contributing!
+* LinkedIn [Zhalgas Zhiyenbekov](http://c4sf.me/slack](https://www.linkedin.com/in/zhiyenbekov/ ).  
