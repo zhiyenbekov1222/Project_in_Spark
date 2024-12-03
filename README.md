@@ -1,7 +1,7 @@
 
 # Spark Practice!
 
-Date completion: 02.12.2025
+Date completion: 02.12.2024
 
 This project is a part of the [Data Engineering 2024 TechOrda](https://university.epam.com/myLearning/path?rootId=15377596) at [Epam University](https://campus.epam.kz/ru). 
 
