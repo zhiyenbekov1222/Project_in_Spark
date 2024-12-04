@@ -54,9 +54,8 @@ This is a final practical task of Spark Lesson. The step and task is provided be
 
 
 ## Featured Notebooks/Analysis/Deliverables
-* [Notebook/Markdown/Slide Deck Title](link)
-* [Notebook/Markdown/Slide DeckTitle](link)
-* [Blog Post](link)
+* [spark_data_upload.py](link)
+* [test_spark.py](link)
 
 
 ## Contributing owner
