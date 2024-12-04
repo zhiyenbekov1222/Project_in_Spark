@@ -53,7 +53,7 @@ This is a final practical task of Spark Lesson. The step and task is provided be
  * Store the enriched data (i.e., the joined data with all the fields from both datasets) in the local file system, preserving data partitioning in the parquet format.
 
 
-## Featured Notebooks/Analysis/Deliverables
+## Featured Notebooks/Preprocessing/Deliverables
 * [spark_data_upload.py](https://github.com/zhiyenbekov1222/Project_in_Spark/blob/main/spark_data_upload.py)
 * [test_spark.py](https://github.com/zhiyenbekov1222/Project_in_Spark/blob/main/test_spark.py)
 
