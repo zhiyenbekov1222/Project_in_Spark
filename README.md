@@ -54,8 +54,10 @@ This is a final practical task of Spark Lesson. The step and task is provided be
 
 
 ## Featured Notebooks/Analysis/Deliverables
-* [spark_data_upload.py](link)
-* [test_spark.py](link)
+* [spark_data_upload.py]([link](https://github.com/zhiyenbekov1222/Project_in_Spark/blob/main/spark_data_upload.py)![image](https://github.com/user-attachments/assets/f44a2280-33c6-4120-8d35-bd9135f0ee44)
+)
+* [test_spark.py]([link](https://github.com/zhiyenbekov1222/Project_in_Spark/blob/main/test_spark.py)![Uploading image.png…]()
+)
 
 
 ## Contributing owner
