@@ -55,7 +55,7 @@ This is a final practical task of Spark Lesson. The step and task is provided be
 
 ## Featured Notebooks/Preprocessing/Deliverables
 * [spark_data_upload.py](https://github.com/zhiyenbekov1222/Project_in_Spark/blob/main/spark_data_upload.py)
-* [test_spark.py](https://github.com/zhiyenbekov1222/Project_in_Spark/blob/main/test_spark.py)
+* [test_spark.py](https://github.com/zhiyenbekov1222/Project_in_Spark/blob/main/unit_test.py)
 
 
 ## Contributing owner
