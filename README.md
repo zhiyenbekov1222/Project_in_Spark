@@ -60,7 +60,7 @@ This is a final practical task of Spark Lesson. The step and task is provided be
 
 ## Contributing owner
 
-**Epam Big Data Engineering student : [Zhalgas Zhiyenbekov](https://github.com/zhiyenbekov1222?tab=repositories))**
+**Epam Big Data Engineering student : [Zhalgas Zhiyenbekov](https://github.com/zhiyenbekov1222?tab=repositories)**
 
 ## Contact
 * LinkedIn [Zhalgas Zhiyenbekov](http://c4sf.me/slack](https://www.linkedin.com/in/zhiyenbekov/ ).  
