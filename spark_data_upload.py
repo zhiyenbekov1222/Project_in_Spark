@@ -40,6 +40,7 @@ API_KEY=config['api']
 class rest_data_etl:
     '''
     This object prepares the restaurant data for merge with weather dataset.
+    New line is added for test.
     '''
     def __init__(self, path = path, api_key = API_KEY):
         '''
